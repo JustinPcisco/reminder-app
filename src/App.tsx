@@ -331,10 +331,10 @@ const filterCounts: Record<string, number> = Object.fromEntries(
   filterDefs.map(f => [f.key, tasks.filter(t => matchesFilter(t, f.key)).length])
 )
 
-const total = tasks.length
+//const total = tasks.length
 const pendingCount = tasks.filter(t => t.status === "pending").length
 const inProgressCount = tasks.filter(t => t.status === "in_progress").length
-const completedCount = tasks.filter(t => t.status === "completed").length
+//const completedCount = tasks.filter(t => t.status === "completed").length
 const overdueCount = tasks.filter(t => isOverdue(t)).length
 
 const am1Open = tasks.filter(t => t.assignedTo === "AM1" && t.status !== "completed").length
