@@ -45,7 +45,7 @@ async function submit(e: React.FormEvent) {
             {mode === "signup" ? "Create account" : "Sign in"}
           </h1>
           <p className="text-sm text-slate-600 dark:text-slate-300">
-            Shared tasks for you and your AM
+            Shared Tasks for Justin and Misha
           </p>
         </div>
 
